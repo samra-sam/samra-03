@@ -2,17 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-.main{
-    display: flex;
-    gap: 15px;
-    justify-content: center;
-    color: darkgrey;
-    background-color: black;
-    margin: 10px;
-}
 
-.head{
-    text-align: center;
-    color: blue;
-   background-color: lightgoldenrodyellow;
+html , body{
+@apply bg-black p-0 m-0
 }
